@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+/*
+====================================
+Sections
+====================================
+*/
+
+.section {
+    background-color: #16a085;
+    height: 500px;
+    line-height: 500px;
+}

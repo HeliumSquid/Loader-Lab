@@ -1,0 +1,344 @@
+/*
+====================================
+Loader - Main
+====================================
+*/
+
+.loader {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative
+}
+
+/*
+====================================
+Loader - Simple
+====================================
+*/
+
+.loader-simple {
+    border-radius: 50px;
+    border: 6px solid rgba(255, 255, 255, 0.4)
+}
+
+.loader-simple:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    animation: load 1s linear infinte;
+    -webkit-animation: load 1s linear infinite;
+    -o-animation: load 1s linear infinite;
+    -moz-animation: load 1s linear infinite
+}
+
+/*
+====================================
+Loader - Double
+====================================
+*/
+
+.loader-double {
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    animation: load 1s linear infinte;
+    -webkit-animation: load 1s linear infinite;
+    -o-animation: load 1s linear infinite;
+    -moz-animation: load 1s linear infinite
+}
+.loader-double:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    opacity: .6;
+    animation: load-reverse 2s linear infinte;
+    -webkit-animation: load-reverse 2s linear infinite;
+    -o-animation: load-reverse 2s linear infinite;
+    -moz-animation: load-reverse 2s linear infinite
+}
+
+/*
+====================================
+Loader - Twirl
+====================================
+*/
+
+.loader-twirl {
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation: load 1s linear infinte;
+    -webkit-animation: load 1s linear infinite;
+    -o-animation: load 1s linear infinite;
+    -moz-animation: load 1s linear infinite;
+}
+
+.loader-twirl:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    opacity: .8;
+    animation: load-reverse 2.5s linear infinte;
+    -webkit-animation: load 2.5s linear infinite;
+    -o-animation: load 2.5s linear infinite;
+    -moz-animation: load 2.5s linear infinite;
+}
+
+.loader-twirl:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    opacity: .5;
+    animation: load 5s linear infinte;
+    -webkit-animation: load 5s linear infinite;
+    -o-animation: load 5s linear infinite;
+    -moz-animation: load 5s linear infinite
+}
+
+/*
+====================================
+Loader - Stack
+====================================
+*/
+
+.loader-stack {
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation: load 1s infinte;
+    -webkit-animation: load 1s infinite;
+    -o-animation: load 1s infinite;
+    -moz-animation: load 1s infinite
+}
+
+.loader-stack:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    opacity: .8;
+    animation: load-reverse 1s infinte;
+    -webkit-animation: load 1s infinite;
+    -o-animation: load 1s infinite;
+    -moz-animation: load 1s infinite
+}
+
+.loader-stack:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    opacity: .5;
+    animation: load 1s infinte;
+    -webkit-animation: load 1s infinite;
+    -o-animation: load 1s infinite;
+    -moz-animation: load 1s infinite
+}
+
+/*
+====================================
+Loader - Dot
+====================================
+*/
+
+.loader-dot {
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    animation: load 1s linear infinte;
+    -webkit-animation: load 1s linear infinite;
+    -o-animation: load 1s linear infinite;
+    -moz-animation: load 1s linear infinite
+}
+.loader-dot:after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    opacity: .6;
+    animation: load-reverse 2s linear infinte;
+    -webkit-animation: load-reverse 2s linear infinite;
+    -o-animation: load-reverse 2s linear infinite;
+    -moz-animation: load-reverse 2s linear infinite
+}
+
+/*
+====================================
+Loader - Simple
+====================================
+*/
+
+.loader-simple {
+    border-radius: 50px;
+    border: 6px solid rgba(255, 255, 255, 0.4)
+}
+.loader-simple:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    animation: load 1s linear infinte;
+    -webkit-animation: load 1s linear infinite;
+    -o-animation: load 1s linear infinite;
+    -moz-animation: load 1s linear infinite;
+}
+
+/*
+====================================
+Loader - Double-Big
+====================================
+*/
+
+.loader-double-big {
+    border-radius: 50px;
+    border: 15px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    animation: load 1s linear infinte;
+    -webkit-animation: load 1s linear infinite;
+    -o-animation: load 1s linear infinite;
+    -moz-animation: load 1s linear infinite;
+}
+.loader-double-big:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    opacity: .6;
+    animation: load-reverse 2s linear infinte;
+    -webkit-animation: load-reverse 2s linear infinite;
+    -o-animation: load-reverse 2s linear infinite;
+    -moz-animation: load-reverse 2s linear infinite;
+}
+/*
+====================================
+Keyframes  - Load
+====================================
+*/
+
+@keyframes load {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+@-webkit-keyframes load {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+@-o-keyframes load {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+@-moz-keyframes load {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+/*
+====================================
+Keyframes - Reverse
+====================================
+*/
+
+@keyframes load-reverse {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(-360deg)
+    }
+}
+@-webkit-keyframes load-reverse {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(-360deg)
+    }
+}
+@-o-keyframes load-reverse {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(-360deg)
+    }
+@-moz-keyframes load-reverse {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(-360deg)
+    }
+}
